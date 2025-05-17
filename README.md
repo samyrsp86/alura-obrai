@@ -14,25 +14,25 @@ Reformar um imóvel pode ser um processo complexo e desafiador. Proprietários f
 
 Acompanhar os gastos de forma organizada.
 Saber exatamente onde o dinheiro está sendo investido.
-Aproveitar os benefícios fiscais da reforma, como a dedução no Imposto de Renda, devido à falta de organização das notas fiscais.
+Aproveitar os benefícios fiscais da reforma, como a incorporação do valor empenhado em obras e benfeitorias no imóvel quando da declaração anual de Imposto de Renda, devido à falta de organização das notas fiscais.
 
 
 🚀 Solução 
 
-O ObrAÍ oferece uma maneira fácil de gerenciar os gastos da sua obra. O serviço funcionará via WhatsApp. O fluxo será:
+O ObrAÍ oferecerá uma maneira fácil de gerenciar os gastos da sua obra. Inicialmente, o aplicativo funcionará através de uma conversa com um agente de Inteligência Artificial do Gemini. O fluxo será:
 
-1. Adicionar o ObrAÍ como contato.
+1. Enviar a URL da Nota Fiscal. 
 
-2. Enviar fotos ou subir arquivos das notas fiscais.
+2. Receber a análise dos gastos, com classificação por categoria e indicação dos itens dedutíveis no IR.
 
-3. Receber a análise dos gastos, com classificação por categoria e indicação dos itens dedutíveis no IR.
+3. Confirmar se os dados estão corretos.
 
 
 
-A IA do ObrAÍ irá:
+⚙️ Funcionalidades Atuais (Desafio Alura/Google)
 
-Interpretar as notas fiscais.
-Classificar os itens nas seguintes categorias:
+1. Interpretar as notas fiscais (fornecidas via arquivos no GitHub)
+2. Classificar os itens nas seguintes categorias:
 Alvenaria
 Hidráulica
 Elétrica
@@ -41,27 +41,15 @@ Móveis
 Pintura
 Eletrodomésticos
 Outras despesas
-Determinar se cada item é incorporável ou não ao IR.
-Armazenar os dados e fornecer relatórios sobre os gastos totais por categoria e o valor dedutível.
-
-
-⚙️ Funcionalidades Atuais (Desafio Alura/Google)
-
-Para esta entrega inicial do desafio, o Obraí oferece as seguintes funcionalidades:
-
-Análise de Notas Fiscais: A IA analisa imagens de notas fiscais (fornecidas via arquivos no GitHub).
-Classificação de Itens: Os itens são classificados por categoria (Alvenaria, Hidráulica, etc.).
-Identificação para o IR: A IA indica se um item é incorporável ou não ao Imposto de Renda.
-Saída em JSON: Os resultados da análise são gerados em formato JSON.
-
-
-Observação: Esta versão não inclui integração com o WhatsApp, upload direto de imagens ou cálculos de totais.
-
+3. Determinar se cada item é incorporável ou não ao IR.
+4. Pedir a confirmação se a interpretação foi correta.
+5. Corrigir com os dados fornecidos pelo usuário, caso alguma informação esteja errada.
+6. Devolver os resultados em formato JSON.
 
 
 💡 Próximos Passos 
 
-O ObrAÍ está em desenvolvimento, e os próximos passos incluem:
+O ObrAÍ está em desenvolvimento e os próximos passos incluem:
 
 Integração com a API do WhatsApp.
 Implementação do upload de fotos de notas fiscais.
@@ -82,11 +70,11 @@ Para executar esta versão do ObrAÍ, siga estas etapas:
 
 2. Certifique-se de ter o Python 3.x instalado.
 
-3. Instale as dependências necessárias (se houver) usando `pip install -r requirements.txt` (se aplicável).
+3. Instale as dependências necessárias (listadas dentro do código).
 
-4. Coloque as imagens das notas fiscais na pasta `data/notas_fiscais` (crie a pasta, se necessário).
+4. Utilize as imagens das notas fiscais disponívis na pasta do projeto.
 
-5. Execute o script principal: `obrAI.ipynb` (ou o nome do script que você usa para executar o código).
+5. Execute o script principal: `obrAI.ipynb`.
 
 6. Utilize o endereço direto da imagem das notas fiscais (ex.:https://raw.githubusercontent.com/samyrsp86/alura-obrai/refs/heads/main/NF1_SD.png)
 
