@@ -86,7 +86,7 @@ Para executar esta versão do ObrAÍ, siga estas etapas:
 
 4. Coloque as imagens das notas fiscais na pasta `data/notas_fiscais` (crie a pasta, se necessário).
 
-5. Execute o script principal: `obrai.py` (ou o nome do script que você usa para executar o código).
+5. Execute o script principal: `obrAI.ipynb` (ou o nome do script que você usa para executar o código).
 
 6. O resultado da análise estará em um texto compatível com um arquivo JSON.
 
