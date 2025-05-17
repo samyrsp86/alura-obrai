@@ -88,7 +88,9 @@ Para executar esta versão do ObrAÍ, siga estas etapas:
 
 5. Execute o script principal: `obrAI.ipynb` (ou o nome do script que você usa para executar o código).
 
-6. O resultado da análise estará em um texto compatível com um arquivo JSON.
+6. Utilize o endereço direto da imagem das notas fiscais (ex.:https://raw.githubusercontent.com/samyrsp86/alura-obrai/refs/heads/main/NF1_SD.png)
+
+7. O resultado da análise estará em um texto compatível com um arquivo JSON.
 
 
 
