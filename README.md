@@ -86,12 +86,12 @@ Para executar esta versão do ObrAÍ, siga estas etapas:
 
 4. Coloque as imagens das notas fiscais na pasta `data/notas_fiscais` (crie a pasta, se necessário).
 
-5. Execute o script principal: `python main.py` (ou o nome do script que você usa para executar o código).
+5. Execute o script principal: `obrai.py` (ou o nome do script que você usa para executar o código).
 
-6. O resultado da análise estará em um arquivo JSON (por exemplo, `output.json`).
+6. O resultado da análise estará em um texto compatível com um arquivo JSON.
 
 
 
-📄 Exemplo de Saída (JSON) [[inluir]]
+📄 Exemplo de Saída (JSON)
 
 ```json { "nota_fiscal_1.jpg": [ { "item": "Saco de cimento 50kg", "categoria": "Alvenaria", "incorporavel_ir": true }, { "item": "Torneira cromada", "categoria": "Hidráulica", "incorporavel_ir": false } ], "nota_fiscal_2.png": [ // Outros itens e notas fiscais ] } 
