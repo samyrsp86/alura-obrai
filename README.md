@@ -4,7 +4,7 @@ ObrAÍ: Sua Obra Sob Controle. E o Leão Também.
 
 💡 Sobre o Projeto
 
-O Obraí é uma solução que utiliza IA para simplificar o gerenciamento de obras residenciais. Ele auxilia no acompanhamento dos gastos por categoria e identifica os valores que podem ser deduzidos no Imposto de Renda.
+O Obraí é uma solução que utiliza IA para simplificar o gerenciamento de obras residenciais. Ele auxilia no acompanhamento dos gastos por categoria e identifica os valores que podem ser incorporados ao valor do imóvel no Imposto de Renda.
 
 
 
