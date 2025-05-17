@@ -1,11 +1,12 @@
-# alura-obra-
-Respositório de de código do Projeto ObrAÍ da Imersão em IA com o Google Gemini da Alura
-
 ObrAÍ: Sua Obra Sob Controle. E o Leão Também.
+
+
 
 💡 Sobre o Projeto
 
 O Obraí é uma solução que utiliza IA para simplificar o gerenciamento de obras residenciais. Ele auxilia no acompanhamento dos gastos por categoria e identifica os valores que podem ser deduzidos no Imposto de Renda.
+
+
 
 🎯 Problema 
 
@@ -14,6 +15,7 @@ Reformar um imóvel pode ser um processo complexo e desafiador. Proprietários f
 Acompanhar os gastos de forma organizada.
 Saber exatamente onde o dinheiro está sendo investido.
 Aproveitar os benefícios fiscais da reforma, como a dedução no Imposto de Renda, devido à falta de organização das notas fiscais.
+
 
 🚀 Solução 
 
@@ -24,6 +26,8 @@ O ObrAÍ oferece uma maneira fácil de gerenciar os gastos da sua obra. O servi�
 2. Enviar fotos ou subir arquivos das notas fiscais.
 
 3. Receber a análise dos gastos, com classificação por categoria e indicação dos itens dedutíveis no IR.
+
+
 
 A IA do ObrAÍ irá:
 
@@ -40,6 +44,7 @@ Outras despesas
 Determinar se cada item é incorporável ou não ao IR.
 Armazenar os dados e fornecer relatórios sobre os gastos totais por categoria e o valor dedutível.
 
+
 ⚙️ Funcionalidades Atuais (Desafio Alura/Google)
 
 Para esta entrega inicial do desafio, o Obraí oferece as seguintes funcionalidades:
@@ -49,7 +54,10 @@ Classificação de Itens: Os itens são classificados por categoria (Alvenaria, 
 Identificação para o IR: A IA indica se um item é incorporável ou não ao Imposto de Renda.
 Saída em JSON: Os resultados da análise são gerados em formato JSON.
 
+
 Observação: Esta versão não inclui integração com o WhatsApp, upload direto de imagens ou cálculos de totais.
+
+
 
 💡 Próximos Passos 
 
@@ -59,10 +67,12 @@ Integração com a API do WhatsApp.
 Implementação do upload de fotos de notas fiscais.
 Cálculo automático dos gastos totais e do valor dedutível.
 
+
 🎯 Público-Alvo
 
 Primário: Proprietários de imóveis que estão realizando reformas.
 Secundário: Arquitetos e empreiteiros que oferecem serviços de acompanhamento de obras.
+
 
 🛠️ Como Usar (Versão Desafio) 
 
@@ -79,6 +89,8 @@ Para executar esta versão do ObrAÍ, siga estas etapas:
 5. Execute o script principal: `python main.py` (ou o nome do script que você usa para executar o código).
 
 6. O resultado da análise estará em um arquivo JSON (por exemplo, `output.json`).
+
+
 
 📄 Exemplo de Saída (JSON) [[inluir]]
 
